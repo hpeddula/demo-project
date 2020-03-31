@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Novartislogo from '../assets/Novartislogo.svg'
+import logo from '../assets/logo.svg'
 import { Sidebar } from 'primereact/sidebar'
 const SIDEBAR = {
     position: 'absolute',
@@ -27,7 +27,7 @@ export default function Header() {
     const [warningSideBar, tooggleWarningSideBar] = useState(false);
     return (
         <>
-            <img src={Novartislogo} alt="Novartis Logo"/>
+            <img src={logo} alt="Novartis Logo"/>
             {/* Sidebar Code */}
             <div style={SIDEBAR}>
                 <Sidebar visible={informationSideBar} position="right" onHide={() => tooggleInfoSideBar(!informationSideBar)}  >
