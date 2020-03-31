@@ -1,0 +1,40 @@
+.dashboard-container {
+    margin-top: 10px;
+}
+
+.dashboard-container > *  {
+    margin-bottom:3.6em;
+}
+.dropDownstyle {
+    display: 'flex';
+    justify-content: 'flex-end';
+    font-size: 'larger'
+}
+
+.box {
+    background-color: blue;
+}
+
+.visit-box {
+    background-color: #ffffff;
+    color: #333333;
+    padding: 1em;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12);
+}
+
+.visit {
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.noHeaders  .p-datatable-thead  {
+    display: none;
+}
+.noHeaders  .p-datatable-tfoot {
+    display: none;
+}
+
+.visitors .p-datatable-tfoot {
+    display: none;
+}
